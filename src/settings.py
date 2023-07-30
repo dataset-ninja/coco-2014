@@ -50,10 +50,10 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/coco-2014"
 ### * Optional after uploading ###
 ##################################
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
-    "test2014.zip": "http://images.cocodataset.org/zips/test2014.zip",
-    "train2014.zip": "http://images.cocodataset.org/zips/train2014.zip",
-    "val2014.zip": "http://images.cocodataset.org/zips/val2014.zip",
-    "annotations_trainval2014.zip": "http://images.cocodataset.org/annotations/annotations_trainval2014.zip",
+    "2014 Train images [83K/13GB]": "http://images.cocodataset.org/zips/train2014.zip",
+    "2014 Val images [41K/6GB]": "http://images.cocodataset.org/zips/val2014.zip",
+    "2014 Test images [41K/6GB]": "http://images.cocodataset.org/zips/test2014.zip",
+    "2014 Train/Val annotations [241MB]": "http://images.cocodataset.org/annotations/annotations_trainval2014.zip",
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
